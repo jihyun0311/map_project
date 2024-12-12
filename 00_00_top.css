@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%; 
+  font-size: 16px;
+}
+
+ul, li{
+  text-decoration: none;
+  list-style: none;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 20px 30px 20px;
+}
+
+.header-top-list {
+  display: flex;
+  gap: 15px;
+  font-size: 13px;
+}
+
+.header-top-list a:hover {
+  color: rgb(23, 155, 0);
+}
+
+.header-mid {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.search-container {
+  display: flex;
+  flex-grow: 1;
+  gap: 10px;
+}
+
+#search-box {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.area {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background: none;
+}
+
+#area-list{
+  position: absolute;
+  top: 60px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+  font-size: 14px;
+  box-shadow: 2px 2px 10px rgba(207, 207, 207, 0.8);
+  z-index: 100;
+}
+
+.area-item:hover{
+  text-decoration: underline;
+}
+
+.area-item{
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(23, 155, 0);;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header-bottom {
+  padding: 0 20px;
+  margin-left: 110px;
+  display: flex;
+  font-size: 14px;
+}
+
+.recommend {
+  display: flex;
+  gap: 25px;
+  margin-left: 30px;
+}
+
+.recommend-item {
+  text-decoration: none;
+  color: gray;
+}
+
+.recommend-item:hover{
+  text-decoration:underline;
+}
