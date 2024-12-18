@@ -93,7 +93,7 @@ a{
   cursor: pointer;
 }
 
-.search-btn {
+#search-btn {
   padding: 10px 20px;
   border: none;
   background-color: rgb(23, 155, 0);;

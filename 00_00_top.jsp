@@ -30,7 +30,7 @@
       <%}%>
     </div>
 	
-	<form action="03_02_categoryPro.jsp">
+	<form action="03_02_categoryPro.jsp" id="top-form">
     <div class="header-mid">
       <button type="button" class="area" id="areaBtn">지역 선택</button>
       <ul id="area-list" style="display: none;">
@@ -45,7 +45,7 @@
         <input type="hidden" name="location" id="location-input">
         <div class="search-container">
           <input type="text" placeholder="카테고리를 입력해주세요!" id="search-box" name="category">
-          <button type="submit" class="search-btn">검색</button>
+          <button type="submit" id="search-btn">검색</button>
       </div>
     </div>
 	</form>

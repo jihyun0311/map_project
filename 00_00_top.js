@@ -31,3 +31,11 @@ for(let i = 0; i<recommendItem.length; i++){
     document.querySelector("#search-box").value = commText;
   })
 }
+
+let topForm = document.querySelector("#top-form");
+let search = document.querySelector("#search-btn");
+search.addEventListener("click", () => {
+	topForm.action = "03_02_categoryPro.jsp";
+	form.submit();
+});
+
